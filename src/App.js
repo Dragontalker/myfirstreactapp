@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Card from './components/Card';
 import Jumbotron from './components/Jumbotron';
+import JSXVariables from './components/JSXVariables';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Jumbotron />
       <NavBar />
       <Card />
+      <JSXVariables />
     </div>
   );
 }
